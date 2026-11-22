@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")();
-const number = Number(prompt("Enter an integer:"));
+let number = Number(prompt("Enter an integer:"));
 
 if (number % 3 == 0) {
     console.log("Divisible by 3");
