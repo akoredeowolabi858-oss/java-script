@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
-const first = Number(prompt("Enter first integer: "));
-const second = Number(prompt("Enter second integer: "));
+let first = Number(prompt("Enter first integer: "));
+let second = Number(prompt("Enter second integer: "));
 
 console.log("First square:", first * first);
 console.log("Second square:", second * second);
